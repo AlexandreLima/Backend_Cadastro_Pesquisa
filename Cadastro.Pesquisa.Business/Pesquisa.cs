@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Cadastro.Pesquisa.Business.Pesquisa
+namespace Cadastro.Pesquisa.Business
 {
     public class Pesquisa
     {
