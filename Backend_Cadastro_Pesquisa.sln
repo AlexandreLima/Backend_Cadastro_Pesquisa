@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend_Cadastro_Pesquisa.T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastro.Pesquisa.Business", "Cadastro.Pesquisa.Business\Cadastro.Pesquisa.Business.csproj", "{2D4CD6EA-27C5-435F-8509-18054B1006DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastro.Pesquisa.Repositorio.MySql", "Cadastro.Pesquisa.Repositorio\Cadastro.Pesquisa.Repositorio.MySql.csproj", "{E7EE1BC8-47CB-4D69-9577-506DD43A89C7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastro.Pesquisa.Repositorio.NHibernate", "Cadastro.Pesquisa.Repositorio\Cadastro.Pesquisa.Repositorio.NHibernate.csproj", "{E7EE1BC8-47CB-4D69-9577-506DD43A89C7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastro.Pesquisa.Repositorio.Contratos", "Cadastro.Pesquisa.Repositorio.Contratos\Cadastro.Pesquisa.Repositorio.Contratos.csproj", "{033C1EC9-E30F-4CC7-B74D-CB8407514E3D}"
 EndProject
