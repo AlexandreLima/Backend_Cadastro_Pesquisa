@@ -8,9 +8,9 @@ namespace Cadastro.Pesquisa.Business
 {
     public class Pesquisa
     {
-        public string Nome { get; set; }
+        public virtual string Nome { get; set; }
 
-        public int IdPesquisa { get; set; }
-
+        public virtual int IdPesquisa { get; set; }
+        
     }
 }
