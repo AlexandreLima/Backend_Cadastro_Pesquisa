@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastro.Pesquisa.Services.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastro.Pesquisa.Services.Contratos.DTO", "Cadastro.Pesquisa.Services.Contratos\Cadastro.Pesquisa.Services.Contratos.DTO.csproj", "{9E3620D1-87F0-4E7E-9F99-5D4E0607E3C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastro.Pesquisa.Service.Impl", "Cadastro.Pesquisa.Service.Impl\Cadastro.Pesquisa.Service.Impl.csproj", "{1DBE6880-A653-405C-8996-73390D82DF37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastro.Pesquisa.Service.Adapters", "Cadastro.Pesquisa.Service.Adapters\Cadastro.Pesquisa.Service.Adapters.csproj", "{90F3CA05-D87F-42F5-A907-E818A047D9B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{9E3620D1-87F0-4E7E-9F99-5D4E0607E3C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E3620D1-87F0-4E7E-9F99-5D4E0607E3C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E3620D1-87F0-4E7E-9F99-5D4E0607E3C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DBE6880-A653-405C-8996-73390D82DF37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DBE6880-A653-405C-8996-73390D82DF37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DBE6880-A653-405C-8996-73390D82DF37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DBE6880-A653-405C-8996-73390D82DF37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90F3CA05-D87F-42F5-A907-E818A047D9B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90F3CA05-D87F-42F5-A907-E818A047D9B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90F3CA05-D87F-42F5-A907-E818A047D9B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90F3CA05-D87F-42F5-A907-E818A047D9B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
