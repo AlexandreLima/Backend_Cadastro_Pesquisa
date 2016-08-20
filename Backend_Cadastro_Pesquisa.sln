@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastro.Pesquisa.Service.I
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastro.Pesquisa.Service.Adapters", "Cadastro.Pesquisa.Service.Adapters\Cadastro.Pesquisa.Service.Adapters.csproj", "{90F3CA05-D87F-42F5-A907-E818A047D9B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastro.Pesquisa.Infraestrutura", "Cadastro.Pesquisa.Infraestrutura\Cadastro.Pesquisa.Infraestrutura.csproj", "{EA810CF9-2B64-4EB9-8D10-1FA12D7A6648}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastro.Pesquisa.WepApi", "Cadastro.Pesquisa.WepApi\Cadastro.Pesquisa.WepApi.csproj", "{D31EAE6D-7B2A-4B71-A224-05687F1F0831}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,14 @@ Global
 		{90F3CA05-D87F-42F5-A907-E818A047D9B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90F3CA05-D87F-42F5-A907-E818A047D9B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90F3CA05-D87F-42F5-A907-E818A047D9B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA810CF9-2B64-4EB9-8D10-1FA12D7A6648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA810CF9-2B64-4EB9-8D10-1FA12D7A6648}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA810CF9-2B64-4EB9-8D10-1FA12D7A6648}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA810CF9-2B64-4EB9-8D10-1FA12D7A6648}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D31EAE6D-7B2A-4B71-A224-05687F1F0831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D31EAE6D-7B2A-4B71-A224-05687F1F0831}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D31EAE6D-7B2A-4B71-A224-05687F1F0831}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D31EAE6D-7B2A-4B71-A224-05687F1F0831}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

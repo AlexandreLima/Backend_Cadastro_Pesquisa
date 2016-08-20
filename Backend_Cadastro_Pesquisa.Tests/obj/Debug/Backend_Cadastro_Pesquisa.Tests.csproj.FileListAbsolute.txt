@@ -115,3 +115,15 @@ C:\Users\Alexandre\Documents\GitHub\Backend_Cadastro_Pesquisa\Backend_Cadastro_P
 C:\Users\Alexandre\Documents\GitHub\Backend_Cadastro_Pesquisa\Backend_Cadastro_Pesquisa.Tests\bin\Debug\Cadastro.Pesquisa.Repositorio.pdb
 C:\Users\Alexandre\Documents\GitHub\Backend_Cadastro_Pesquisa\Backend_Cadastro_Pesquisa.Tests\bin\Debug\FluentNHibernate.pdb
 C:\Users\Alexandre\Documents\GitHub\Backend_Cadastro_Pesquisa\Backend_Cadastro_Pesquisa.Tests\bin\Debug\FluentNHibernate.xml
+C:\Users\Alexandre\Documents\GitHub\Backend_Cadastro_Pesquisa\Backend_Cadastro_Pesquisa.Tests\bin\Debug\Cadastro.Pesquisa.Services.TaskService.Contratos.dll
+C:\Users\Alexandre\Documents\GitHub\Backend_Cadastro_Pesquisa\Backend_Cadastro_Pesquisa.Tests\bin\Debug\Cadastro.Pesquisa.Services.Contratos.dll
+C:\Users\Alexandre\Documents\GitHub\Backend_Cadastro_Pesquisa\Backend_Cadastro_Pesquisa.Tests\bin\Debug\Cadastro.Pesquisa.Infraestrutura.dll
+C:\Users\Alexandre\Documents\GitHub\Backend_Cadastro_Pesquisa\Backend_Cadastro_Pesquisa.Tests\bin\Debug\Ninject.dll
+C:\Users\Alexandre\Documents\GitHub\Backend_Cadastro_Pesquisa\Backend_Cadastro_Pesquisa.Tests\bin\Debug\Cadastro.Pesquisa.Service.Impl.dll
+C:\Users\Alexandre\Documents\GitHub\Backend_Cadastro_Pesquisa\Backend_Cadastro_Pesquisa.Tests\bin\Debug\Cadastro.Pesquisa.Service.Adapters.dll
+C:\Users\Alexandre\Documents\GitHub\Backend_Cadastro_Pesquisa\Backend_Cadastro_Pesquisa.Tests\bin\Debug\Cadastro.Pesquisa.Services.TaskService.Contratos.pdb
+C:\Users\Alexandre\Documents\GitHub\Backend_Cadastro_Pesquisa\Backend_Cadastro_Pesquisa.Tests\bin\Debug\Cadastro.Pesquisa.Services.Contratos.pdb
+C:\Users\Alexandre\Documents\GitHub\Backend_Cadastro_Pesquisa\Backend_Cadastro_Pesquisa.Tests\bin\Debug\Cadastro.Pesquisa.Infraestrutura.pdb
+C:\Users\Alexandre\Documents\GitHub\Backend_Cadastro_Pesquisa\Backend_Cadastro_Pesquisa.Tests\bin\Debug\Ninject.xml
+C:\Users\Alexandre\Documents\GitHub\Backend_Cadastro_Pesquisa\Backend_Cadastro_Pesquisa.Tests\bin\Debug\Cadastro.Pesquisa.Service.Impl.pdb
+C:\Users\Alexandre\Documents\GitHub\Backend_Cadastro_Pesquisa\Backend_Cadastro_Pesquisa.Tests\bin\Debug\Cadastro.Pesquisa.Service.Adapters.pdb

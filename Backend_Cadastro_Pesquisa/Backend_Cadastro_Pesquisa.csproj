@@ -40,6 +40,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Ninject">
+      <HintPath>..\packages\Ninject.3.2.2.0\lib\net45-full\Ninject.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -198,6 +201,7 @@
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\Pesquisa\PesquisaController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -268,6 +272,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Pesquisa\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -275,6 +280,20 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Cadastro.Pesquisa.Infraestrutura\Cadastro.Pesquisa.Infraestrutura.csproj">
+      <Project>{ea810cf9-2b64-4eb9-8d10-1fa12d7a6648}</Project>
+      <Name>Cadastro.Pesquisa.Infraestrutura</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cadastro.Pesquisa.Services.Contratos\Cadastro.Pesquisa.Services.Contratos.DTO.csproj">
+      <Project>{9e3620d1-87f0-4e7e-9f99-5d4e0607e3c9}</Project>
+      <Name>Cadastro.Pesquisa.Services.Contratos.DTO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cadastro.Pesquisa.Services.TaskService.Contratos\Cadastro.Pesquisa.Services.Contratos.csproj">
+      <Project>{d43a2e48-5615-43ed-be5d-b9cbeb31584f}</Project>
+      <Name>Cadastro.Pesquisa.Services.Contratos</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
