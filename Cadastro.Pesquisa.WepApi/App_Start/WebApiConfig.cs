@@ -14,15 +14,30 @@ namespace Cadastro.Pesquisa.WepApi
         public static void Register(HttpConfiguration config)
         {
             // Web API configuration and services
-            
+            CreateKernel();
             // Web API routes
             config.MapHttpAttributeRoutes();
+            //config.Routes.MapHttpRoute("DefaultApi", "api/{controller}/{action}/{id}",
+            //new { id = RouteParameter.Optional });
 
             config.Routes.MapHttpRoute(
-                name: "DefaultApi",
+                name: "Default",
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+            //config.Routes.MapHttpRoute(
+            //    name: "DefaultApi",
+            //    routeTemplate: "api/{controller}/{action}/{id}",
+            //    defaults: new { id = RouteParameter.Optional }
+            //);
+
+            //config.Routes.MapHttpRoute(
+            //    name: "Action",
+            //    routeTemplate: "api/{controller}/{id}",
+            //    defaults: new { id = RouteParameter.Optional }
+            //);
+
+            
         }
 
         private static IKernel CreateKernel()
@@ -42,7 +57,7 @@ namespace Cadastro.Pesquisa.WepApi
             // This is where we tell Ninject how to resolve service requests
             new NinjectDependencyResolverInfraestrutura().Load(kernel);
         }
-       
+
     }
 
     // Provides a Ninject implementation of IDependencyScope

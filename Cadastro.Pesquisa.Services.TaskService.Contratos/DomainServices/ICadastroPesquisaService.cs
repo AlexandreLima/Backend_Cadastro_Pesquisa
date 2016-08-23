@@ -12,6 +12,6 @@ namespace Cadastro.Pesquisa.Services.TaskService.Contratos.DomainServices.Pesqui
         Services.Contratos.Pesquisa.PesquisaDto IncluiPesquisa(PesquisaDto dto);
         Services.Contratos.Pesquisa.PesquisaDto ObtemPesquisa(PesquisaDto dto);
         Services.Contratos.Pesquisa.PesquisaDto ObtemPorId(int id);
-
+        IList<Services.Contratos.Pesquisa.PesquisaDto> ObtemTodasPesquisas();
     }
 }

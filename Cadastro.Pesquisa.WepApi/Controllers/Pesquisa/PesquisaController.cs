@@ -17,10 +17,20 @@ namespace Cadastro.Pesquisa.WepApi.Controllers.Pesquisa
             this.service = service;
         }
 
-        [HttpGet]
-        public PesquisaDto ObterPorId(int id)
+        public PesquisaDto Get(int id)
         {
             return service.ObtemPorId(id);
+        }
+
+        [HttpGet]
+        public IList<PesquisaDto> Get()
+        {
+            return service.ObtemTodasPesquisas();
+        }
+
+        public PesquisaDto Post([FromBody] PesquisaDto pesquisa) 
+        {
+            return service.IncluiPesquisa(pesquisa);
         }
     }
 }
